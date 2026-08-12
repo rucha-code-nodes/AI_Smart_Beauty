@@ -5,63 +5,76 @@
 <img src="https://img.shields.io/badge/AI-Smart%20Beauty-ff69b4?style=for-the-badge&logo=python&logoColor=white"/>
 <img src="https://img.shields.io/badge/Machine%20Learning-XGBoost-orange?style=for-the-badge"/>
 <img src="https://img.shields.io/badge/Computer%20Vision-Face%20Analysis-blue?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python&logoColor=white"/>
+<img src="https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/Backend-Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 
 </p>
 
 <p align="center">
-  <b>✨ AI-powered beauty analysis for smarter, personalized recommendations ✨</b>
+  <b>✨ AI-powered beauty analysis for smarter and personalized recommendations ✨</b>
 </p>
 
 <p align="center">
   An intelligent beauty-tech application that analyzes facial features
-  and skin characteristics using Machine Learning and Computer Vision.
+  and skin characteristics using Computer Vision and Machine Learning.
+</p>
+
+<p align="center">
+
+🌸 **AI + Computer Vision + Machine Learning + React**
+
 </p>
 
 ---
 
-## 🌸 PROJECT OVERVIEW
+# 🌸 PROJECT OVERVIEW
 
-**AI Smart Beauty** is an AI-powered beauty analysis application designed to make beauty recommendations more personalized.
+**AI Smart Beauty** is an AI-powered beauty analysis application designed to make beauty recommendations more personalized and intelligent.
 
 Instead of relying only on manual selection, the system analyzes information extracted from a user's face and uses trained Machine Learning models to predict characteristics such as:
 
 ```text
-             📸 USER IMAGE
-                   │
-                   ▼
-          🔍 FACE DETECTION
-                   │
-                   ▼
-        🧬 FEATURE EXTRACTION
-                   │
-          ┌────────┴────────┐
-          ▼                 ▼
-     👩 FACE SHAPE      🎨 SKIN TONE
-          │                 │
-          └────────┬────────┘
-                   ▼
-             🤖 ML MODELS
-                   │
-                   ▼
-          💄 SMART BEAUTY
-           RECOMMENDATIONS
+                 📸 USER IMAGE
+                       │
+                       ▼
+              🔍 FACE DETECTION
+                       │
+                       ▼
+             🧬 FEATURE EXTRACTION
+                       │
+              ┌────────┴────────┐
+              ▼                 ▼
+         👩 FACE SHAPE      🎨 SKIN TONE
+              │                 │
+              └────────┬────────┘
+                       ▼
+                  🤖 ML MODELS
+                       │
+                       ▼
+              💄 BEAUTY ANALYSIS
+                       │
+                       ▼
+             ✨ SMART RESULTS
 ```
 
-The project combines **Computer Vision + Machine Learning + Web Development** into a single beauty-tech solution.
+The project combines:
+
+**Computer Vision + Machine Learning + Python Backend + React Frontend + Software Testing**
+
+into a single beauty-tech application.
 
 ---
 
 # 💎 WHY AI SMART BEAUTY?
 
-Choosing beauty products can be confusing because different people have different:
+Choosing beauty products can be confusing because every individual has different:
 
 * 👩 Face shapes
 * 🎨 Skin tones
 * 💄 Beauty preferences
 * ✨ Product suitability
 
-AI Smart Beauty aims to make this process more intelligent by using facial information as an input for personalized analysis.
+AI Smart Beauty aims to make this process more intelligent by analyzing facial information and providing personalized beauty insights.
 
 > **"Beauty is personal. Your recommendations should be too."** 💖
 
@@ -69,149 +82,258 @@ AI Smart Beauty aims to make this process more intelligent by using facial infor
 
 # 🚀 KEY FEATURES
 
-### 📸 1. FACE ANALYSIS
+## 📸 1. FACE ANALYSIS
 
 The system processes facial images and extracts relevant facial characteristics for further analysis.
 
-### 👩 2. FACE SHAPE PREDICTION
+---
 
-A Machine Learning model is used to predict the user's face shape from extracted facial features.
+## 👩 2. FACE SHAPE PREDICTION
 
-Possible face-shape categories can be used to support personalized beauty recommendations.
+A trained Machine Learning model analyzes extracted facial features to predict the user's face shape.
 
-### 🎨 3. SKIN TONE ANALYSIS
+```text
+📸 Image
+   ↓
+🔍 Face Detection
+   ↓
+🧬 Facial Feature Extraction
+   ↓
+⚙️ Feature Scaling
+   ↓
+🤖 XGBoost Model
+   ↓
+👩 Face Shape Prediction
+```
 
-The application processes skin-related image information and uses a trained model to predict the user's skin tone category.
+---
 
-### 🤖 4. MACHINE LEARNING
+## 🎨 3. SKIN TONE ANALYSIS
 
-The project includes trained ML models using **XGBoost**, along with preprocessing and scaling components.
+The application processes skin-related image information and uses a trained Machine Learning model to predict the user's skin tone category.
 
-### 📊 5. MODEL ANALYSIS
+```text
+📸 Image
+   ↓
+🎯 Skin Region Detection
+   ↓
+🧬 Feature Extraction
+   ↓
+⚙️ Feature Scaling
+   ↓
+🤖 XGBoost Model
+   ↓
+🎨 Skin Tone Prediction
+```
 
-The project includes model-analysis visualizations such as:
+---
 
-* Feature importance
-* Confusion matrix
-* Model-related evaluation outputs
+## 🤖 4. MACHINE LEARNING
 
-### 🌐 6. WEB INTERFACE
+The project uses trained **XGBoost classification models** along with preprocessing and scaling components.
 
-The project includes separate frontend and backend components for creating an interactive user experience.
+The repository contains trained model files and preprocessing components used for prediction.
 
-### 🧪 7. SOFTWARE TESTING
+---
 
-The repository also includes dedicated **AI Smart Beauty test cases**, demonstrating attention to software quality and functional validation.
+## 📊 5. MODEL ANALYSIS
+
+The project includes Machine Learning evaluation and visualization outputs such as:
+
+* 📈 Feature importance
+* 📊 Confusion matrix
+* 🧬 Facial feature analysis
+* 🤖 XGBoost model evaluation
+
+---
+
+## ⚛️ 6. REACT WEB INTERFACE
+
+The frontend is developed using **React.js** to provide an interactive and modern user experience.
+
+The React frontend is responsible for:
+
+* 📸 Image upload
+* 🖥️ User interface
+* 🔍 Triggering analysis
+* 📋 Displaying prediction results
+* 🎨 Presenting beauty-analysis information
+* 🧭 Application navigation
+
+---
+
+## 🐍 7. PYTHON BACKEND
+
+The backend is implemented using **Python** and handles the Machine Learning and Computer Vision processing.
+
+The backend manages:
+
+* Image processing
+* Feature extraction
+* Model loading
+* Prediction
+* Face analysis
+* Skin analysis
+
+---
+
+## 🧪 8. SOFTWARE TESTING
+
+The project also includes dedicated test cases for validating application behavior.
+
+Testing covers areas such as:
+
+* Image upload
+* Face detection
+* Prediction
+* Invalid inputs
+* Result validation
+* Functional behavior
+
+This demonstrates the combination of:
+
+**AI/ML Development + Software Testing + Quality Assurance**
 
 ---
 
 # 🧠 AI / ML PIPELINE
 
 ```text
-                    ┌─────────────────┐
-                    │   USER IMAGE    │
-                    └────────┬────────┘
-                             │
-                             ▼
-                  ┌─────────────────────┐
-                  │ IMAGE PREPROCESSING │
-                  └─────────┬───────────┘
-                            │
-                            ▼
-                  ┌─────────────────────┐
-                  │ FACE DETECTION      │
-                  └─────────┬───────────┘
-                            │
-                            ▼
-                  ┌─────────────────────┐
-                  │ FEATURE EXTRACTION  │
-                  └─────────┬───────────┘
-                            │
-                 ┌──────────┴──────────┐
-                 ▼                     ▼
-        ┌────────────────┐    ┌────────────────┐
-        │ FACE FEATURES  │    │ SKIN FEATURES  │
-        └───────┬────────┘    └───────┬────────┘
-                │                     │
-                ▼                     ▼
-        ┌────────────────┐    ┌────────────────┐
-        │ FACE ML MODEL  │    │ SKIN ML MODEL  │
-        └───────┬────────┘    └───────┬────────┘
-                │                     │
-                └──────────┬──────────┘
-                           ▼
-                  💄 BEAUTY ANALYSIS
+                       ┌─────────────────┐
+                       │   📸 USER IMAGE │
+                       └────────┬────────┘
+                                │
+                                ▼
+                     ┌─────────────────────┐
+                     │ IMAGE PREPROCESSING │
+                     └─────────┬───────────┘
+                               │
+                               ▼
+                     ┌─────────────────────┐
+                     │   FACE DETECTION    │
+                     └─────────┬───────────┘
+                               │
+                               ▼
+                     ┌─────────────────────┐
+                     │  FEATURE EXTRACTION │
+                     └─────────┬───────────┘
+                               │
+                    ┌──────────┴──────────┐
+                    ▼                     ▼
+           ┌────────────────┐    ┌────────────────┐
+           │ FACE FEATURES  │    │ SKIN FEATURES  │
+           └───────┬────────┘    └───────┬────────┘
+                   │                     │
+                   ▼                     ▼
+           ┌────────────────┐    ┌────────────────┐
+           │ FACE ML MODEL  │    │ SKIN ML MODEL  │
+           └───────┬────────┘    └───────┬────────┘
+                   │                     │
+                   └──────────┬──────────┘
+                              ▼
+                    ┌────────────────────┐
+                    │ 💄 BEAUTY ANALYSIS │
+                    └─────────┬──────────┘
+                              │
+                              ▼
+                    ✨ PERSONALIZED RESULT
+```
+
+---
+
+# ⚙️ SYSTEM ARCHITECTURE
+
+```text
+                         👤 USER
                            │
                            ▼
-                 ✨ PERSONALIZED RESULT
+                 ┌──────────────────┐
+                 │   ⚛️ REACT APP    │
+                 │    FRONTEND      │
+                 └────────┬─────────┘
+                          │
+                          │ API / Request
+                          ▼
+                 ┌──────────────────┐
+                 │ 🐍 PYTHON BACKEND│
+                 └────────┬─────────┘
+                          │
+              ┌───────────┴───────────┐
+              ▼                       ▼
+       👁️ COMPUTER VISION        🤖 ML MODELS
+              │                       │
+              │                 ┌─────┴─────┐
+              │                 ▼           ▼
+              │             👩 FACE      🎨 SKIN
+              │              MODEL        MODEL
+              │                 │           │
+              └─────────────────┴───────────┘
+                              │
+                              ▼
+                       📊 PREDICTION
+                              │
+                              ▼
+                 ⚛️ REACT RESULT SCREEN
+                              │
+                              ▼
+                       💄 BEAUTY INSIGHT
 ```
 
 ---
 
 # 🛠️ TECHNOLOGY STACK
 
-<p align="center">
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white"/>
-<img src="https://img.shields.io/badge/XGBoost-EC6B23?style=for-the-badge"/>
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
-
-</p>
-
-### Core Technologies
-
-| Technology                 | Purpose                  |
-| -------------------------- | ------------------------ |
-| 🐍 **Python**              | ML & backend development |
-| 👁️ **Computer Vision**    | Facial/image analysis    |
-| 🤖 **XGBoost**             | Classification models    |
-| 🔢 **NumPy**               | Numerical processing     |
-| 🌐 **HTML/CSS/JavaScript** | Frontend interface       |
-| 📊 **Machine Learning**    | Face & skin prediction   |
-| 🧪 **Testing**             | Functional validation    |
+| Technology                        | Purpose                          |
+| --------------------------------- | -------------------------------- |
+| 🐍 **Python**                     | Backend & Machine Learning       |
+| ⚛️ **React.js**                   | Frontend user interface          |
+| 🤖 **XGBoost**                    | Classification models            |
+| 👁️ **Computer Vision**           | Facial/image analysis            |
+| 🔢 **NumPy**                      | Numerical processing             |
+| 🧠 **Machine Learning**           | Face & skin prediction           |
+| 📊 **Matplotlib / Visualization** | Model analysis                   |
+| 🧪 **Testing**                    | Functional validation            |
+| 🌐 **REST/API Communication**     | Frontend ↔ Backend communication |
 
 ---
 
-# 🧩 PROJECT ARCHITECTURE
+# 🧩 PROJECT STRUCTURE
 
 ```text
 AI_Smart_Beauty/
 │
 ├── 📁 backend/
-│   └── Backend services & processing
+│   │
+│   ├── 🐍 app.py
+│   ├── 🧠 train_model.py
+│   ├── 🧠 train_model_face.py
+│   │
+│   ├── ⚙️ preprocess.py
+│   ├── ⚙️ preprocess_face.py
+│   │
+│   ├── 👁️ face_see.py
+│   ├── 👁️ see.py
+│   │
+│   ├── 🤖 face_shape_model.pkl
+│   ├── 🤖 face_shape_model_xgb.pkl
+│   ├── 🤖 skin_tone_model_xgb.pkl
+│   │
+│   ├── 📦 face_scaler.pkl
+│   ├── 📦 skin_scaler.pkl
+│   └── 📦 scaler.pkl
 │
 ├── 📁 frontend/
-│   └── User interface
+│   │
+│   ├── ⚛️ React Application
+│   ├── 📁 src/
+│   ├── 📁 public/
+│   └── 📄 package.json
 │
 ├── 📁 data/
-│   └── Dataset / processed data
-│
-├── 🐍 app.py
-│
-├── 🧠 train_model.py
-├── 🧠 train_model_face.py
-│
-├── ⚙️ preprocess.py
-├── ⚙️ preprocess_face.py
-│
-├── 👁️ face_see.py
-├── 👁️ see.py
-│
-├── 🤖 face_shape_model.pkl
-├── 🤖 face_shape_model_xgb.pkl
-├── 🤖 skin_tone_model_xgb.pkl
-│
-├── 📦 face_scaler.pkl
-├── 📦 skin_scaler.pkl
-├── 📦 scaler.pkl
+│   └── 📊 Dataset / processed data
 │
 ├── 📊 confusion_matrix_xgboost.png
 ├── 📊 feature_importance_xgboost.png
-│
 ├── 📊 face_feature_importance.png
 │
 ├── 🧪 AI_Smart_Beauty_Test_Cases.xlsx
@@ -219,22 +341,20 @@ AI_Smart_Beauty/
 └── 📄 README.md
 ```
 
-The structure above reflects the major components currently visible in the repository.
-
 ---
 
 # 🔬 MACHINE LEARNING COMPONENT
 
-The project uses trained classification models to analyze extracted facial/skin features.
+The application uses trained classification models to analyze extracted facial and skin features.
 
-### Face Shape Model
+## 👩 Face Shape Model
 
 ```text
 Input Image
      ↓
 Face Detection
      ↓
-Feature Extraction
+Facial Feature Extraction
      ↓
 Feature Scaling
      ↓
@@ -243,14 +363,16 @@ XGBoost Model
 Face Shape Prediction
 ```
 
-### Skin Tone Model
+---
+
+## 🎨 Skin Tone Model
 
 ```text
 Input Image
      ↓
 Skin Region Processing
      ↓
-Feature Extraction
+Skin Feature Extraction
      ↓
 Feature Scaling
      ↓
@@ -263,130 +385,170 @@ Skin Tone Prediction
 
 # 📊 MODEL EVALUATION
 
-The repository contains visual model-analysis outputs including:
+The project contains visual outputs used to analyze Machine Learning performance.
 
-### Confusion Matrix
+## 📈 Confusion Matrix
 
 ```text
-              PREDICTED
-           ┌─────┬─────┬─────┐
-ACTUAL     │  ✓  │  ✗  │  ✓  │
-           ├─────┼─────┼─────┤
-           │  ✗  │  ✓  │  ✗  │
-           ├─────┼─────┼─────┤
-           │  ✓  │  ✓  │  ✓  │
-           └─────┴─────┴─────┘
+                  PREDICTED
+              ┌─────┬─────┬─────┐
+              │  ✓  │  ✗  │  ✓  │
+        ┌─────┼─────┼─────┼─────┤
+ ACTUAL │  ✗  │  ✓  │  ✗  │
+        ├─────┼─────┼─────┼─────┤
+        │  ✓  │  ✓  │  ✓  │
+        └─────┴─────┴─────┘
 ```
 
-### Feature Importance
+A confusion matrix helps evaluate how effectively the classification model distinguishes between different categories.
 
-Feature-importance visualizations help identify which extracted facial characteristics contribute most strongly to model predictions.
+---
 
-The repository currently includes both XGBoost and face-feature analysis visualizations.
+## 🧬 FEATURE IMPORTANCE
+
+Feature-importance analysis helps identify which extracted characteristics have the greatest influence on model predictions.
+
+The repository includes feature-importance visualizations for the trained models.
 
 ---
 
 # 🧪 TESTING & QUALITY ASSURANCE
 
-One of the strongest parts of this project is that it doesn't stop at Machine Learning.
+AI Smart Beauty also incorporates software testing practices to validate application functionality.
 
-The repository includes a dedicated:
+The repository contains:
 
 **`AI_Smart_Beauty_Test_Cases_Rucha_Ahire.xlsx`**
 
-for documenting and validating application behavior.
+### 🧪 Testing Flow
+
+```text
+             🧪 TESTING
+                 │
+       ┌─────────┼──────────┐
+       ▼         ▼          ▼
+   📤 Upload   🔍 Analysis  🤖 Prediction
+       │         │          │
+       └─────────┼──────────┘
+                 ▼
+          📋 Result Validation
+                 │
+                 ▼
+             ✅ QA CHECK
+```
 
 ### Testing Areas
 
-```text
-🧪 Functional Testing
-        │
-        ├── Image Upload
-        ├── Face Detection
-        ├── Prediction
-        ├── Invalid Input
-        └── Result Validation
-                 │
-                 ▼
-          ✅ QUALITY CHECK
-```
-
-This makes the project particularly useful as a demonstration of both **AI/ML development and software testing practices**.
+* ✅ Image upload validation
+* ✅ Face detection validation
+* ✅ Prediction validation
+* ✅ Invalid input testing
+* ✅ Result validation
+* ✅ Functional testing
+* ✅ UI behavior testing
 
 ---
 
 # 🖥️ APPLICATION FLOW
 
 ```text
-       👤 USER
-          │
-          ▼
-    📤 Upload Image
-          │
-          ▼
-    🔍 Analyze Face
-          │
-          ▼
-   🧬 Extract Features
-          │
-     ┌────┴─────┐
-     ▼          ▼
-  👩 Face     🎨 Skin
-   Shape       Tone
-     │          │
-     └────┬─────┘
-          ▼
-      🤖 AI MODEL
-          │
-          ▼
-    📋 ANALYSIS RESULT
-          │
-          ▼
-       💄 BEAUTY
-   RECOMMENDATION
+                    👤 USER
+                       │
+                       ▼
+              ⚛️ REACT FRONTEND
+                       │
+                       ▼
+                📤 UPLOAD IMAGE
+                       │
+                       ▼
+                🔍 ANALYZE FACE
+                       │
+                       ▼
+               🧬 EXTRACT FEATURES
+                       │
+              ┌────────┴────────┐
+              ▼                 ▼
+          👩 FACE SHAPE      🎨 SKIN TONE
+              │                 │
+              └────────┬────────┘
+                       ▼
+                  🤖 ML MODEL
+                       │
+                       ▼
+                📋 ANALYSIS RESULT
+                       │
+                       ▼
+                 💄 BEAUTY INSIGHT
 ```
 
 ---
 
 # 🌟 PROJECT HIGHLIGHTS
 
-| Area                | Implementation                        |
-| ------------------- | ------------------------------------- |
-| 🧠 AI               | Machine Learning classification       |
-| 👁️ Computer Vision | Facial image processing               |
-| 🤖 ML Algorithm     | XGBoost                               |
-| 🎨 Skin Analysis    | Skin tone prediction                  |
-| 👩 Face Analysis    | Face shape prediction                 |
-| 🌐 Web              | Frontend + Backend                    |
-| 📊 Evaluation       | Confusion matrix & feature importance |
-| 🧪 QA               | Dedicated test cases                  |
-| 🐍 Backend          | Python                                |
+| Area                           | Implementation                        |
+| ------------------------------ | ------------------------------------- |
+| 🧠 **Artificial Intelligence** | Machine Learning classification       |
+| 👁️ **Computer Vision**        | Facial image processing               |
+| 🤖 **ML Algorithm**            | XGBoost                               |
+| 👩 **Face Analysis**           | Face shape prediction                 |
+| 🎨 **Skin Analysis**           | Skin tone prediction                  |
+| ⚛️ **Frontend**                | React.js                              |
+| 🐍 **Backend**                 | Python                                |
+| 🔗 **Integration**             | Frontend ↔ Backend                    |
+| 📊 **Evaluation**              | Confusion matrix & feature importance |
+| 🧪 **QA**                      | Dedicated functional test cases       |
+
+---
+
+# 💡 WHAT MAKES THIS PROJECT DIFFERENT?
+
+```text
+       ┌─────────────────────────────┐
+       │       TRADITIONAL WAY       │
+       ├─────────────────────────────┤
+       │ 👤 Manual Selection         │
+       │ ❓ Generic Recommendations  │
+       │ 🔍 No Facial Analysis       │
+       └─────────────────────────────┘
+
+                    VS
+
+       ┌─────────────────────────────┐
+       │      AI SMART BEAUTY        │
+       ├─────────────────────────────┤
+       │ 📸 Image-Based Analysis     │
+       │ 🤖 ML Predictions           │
+       │ 👩 Face Shape Analysis      │
+       │ 🎨 Skin Tone Analysis       │
+       │ 💄 Personalized Insights    │
+       └─────────────────────────────┘
+```
 
 ---
 
 # 📈 FUTURE ENHANCEMENTS
 
-The project can be extended into a complete AI beauty assistant.
+The project can be extended into a complete **AI Beauty Assistant**.
 
 ```text
-              💄 AI SMART BEAUTY
-                      │
-       ┌──────────────┼──────────────┐
-       ▼              ▼              ▼
-   👩 Face        🎨 Skin         💇 Hair
-   Analysis       Analysis        Analysis
-       │              │              │
-       └──────────────┼──────────────┘
-                      ▼
-               🤖 AI ENGINE
-                      │
-        ┌─────────────┼─────────────┐
-        ▼             ▼             ▼
-    💄 Makeup     🧴 Skincare    💇 Hairstyle
-   Suggestions    Products       Suggestions
+                    💄 AI SMART BEAUTY
+                           │
+          ┌────────────────┼────────────────┐
+          ▼                ▼                ▼
+      👩 FACE           🎨 SKIN          💇 HAIR
+      ANALYSIS          ANALYSIS         ANALYSIS
+          │                │                │
+          └────────────────┼────────────────┘
+                           ▼
+                      🤖 AI ENGINE
+                           │
+            ┌──────────────┼──────────────┐
+            ▼              ▼              ▼
+        💄 Makeup      🧴 Skincare     💇 Hairstyle
+       Suggestions     Products        Suggestions
 ```
 
-### Possible Improvements
+### 🚀 Planned Improvements
 
 * 📸 Real-time webcam analysis
 * 💄 Personalized makeup recommendations
@@ -399,14 +561,22 @@ The project can be extended into a complete AI beauty assistant.
 * 📱 Mobile application
 * 🔐 Secure user profiles
 * ⭐ Recommendation feedback system
+* 🛍️ Beauty-product integration
 
 ---
 
-# ⚠️ DISCLAIMER
+# 🔐 PRIVACY & RESPONSIBLE AI
 
-This project is intended as an **AI/ML demonstration and educational project**.
+The application works with facial imagery, so privacy and responsible handling of user data are important considerations.
 
-Beauty recommendations generated by the system should not be considered professional dermatological or medical advice.
+Future production versions should include:
+
+* 🔐 Secure image handling
+* 🗑️ Automatic deletion of uploaded images
+* 🔒 User consent
+* 🛡️ Secure API communication
+* 📋 Transparent AI predictions
+* ⚖️ Bias and fairness evaluation
 
 ---
 
@@ -416,13 +586,21 @@ Beauty recommendations generated by the system should not be considered professi
 
 **B.Tech Graduate | Software Testing | Java | Python | AI/ML**
 
-Interested in building intelligent applications while ensuring **software quality, reliability and user experience**.
+Passionate about building intelligent applications while focusing on:
+
+```text
+🤖 Artificial Intelligence
+💻 Software Development
+🧪 Software Testing
+🔍 Quality Assurance
+🌐 Web Development
+```
 
 ---
 
 # ⭐ SUPPORT THE PROJECT
 
-If you find this project interesting:
+If you find **AI Smart Beauty** interesting:
 
 ⭐ Star the repository
 🍴 Fork the project
@@ -431,14 +609,16 @@ If you find this project interesting:
 
 ---
 
+# 💄✨ AI + BEAUTY + TECHNOLOGY ✨💄
+
 <p align="center">
 
-### 💄✨ AI + BEAUTY + TECHNOLOGY ✨💄
+<b>Making beauty analysis smarter, more personalized and more accessible.</b>
 
-**Making beauty analysis smarter, more personalized and more accessible.**
+<br><br>
 
-<br>
+Built with ❤️ using
 
-Built with ❤️ using Python, Machine Learning & Computer Vision.
+**Python • XGBoost • Computer Vision • React • Machine Learning**
 
 </p>
